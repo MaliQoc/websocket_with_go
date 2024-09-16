@@ -41,7 +41,7 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/ws", handleConnection)
-	serverAddr := "localhost:5051"
+	serverAddr := "localhost:5050"
 	fmt.Printf("WebSocket server started at ws://%s\n", serverAddr)
 	err := http.ListenAndServe(serverAddr, nil)
 	if err != nil {
