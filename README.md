@@ -16,9 +16,4 @@
     ```bash
     go run main.go
     ```
-    
-3. Test edin:
-
-   ```bash
-    go test -v
-    ```
+(Kod içerisinde test kısmını da barındırır. Testini kendisi yapar.)
